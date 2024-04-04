@@ -33,3 +33,12 @@ segundo commit
 
 ¿Cuál cree que no hace falta que esté?
 Para mi el tp1_1.exe
+
+¿A qué se debe que los resultados de los apartados 2 y 3 sean iguales?
+Se debe a que en ambos casos estamos accediendo a la dirección de memoria de la variable x. Cuando utilizamos &x,
+obtenemos la dirección de memoria de x, mientras que cuando usamos ptr, que apunta a x, también obtenemos la misma dirección de memoria.
+
+¿Qué obtiene en el punto 4? ¿Es igual a los anteriores?
+En el punto 4, estamos obteniendo la dirección de memoria del puntero ptr en sí mismo, no de la variable a la que apunta (x).
+Por lo tanto, es la dirección de memoria donde está almacenado el puntero en el programa. Esta dirección de memoria puede ser
+diferente de las direcciones de memoria de la variable x y del puntero ptr que obtuvimos en los puntos 2 y 3.
